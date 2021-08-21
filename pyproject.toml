@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "wvproxy"
+version = "0.1.0"
+description = "Widevine CDM API"
+authors = ["nyuszika7h <nyuszika7h@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+Flask = "^2.0.1"
+Flask-SocketIO = "^5.1.1"
+pymp4 = "^1.2.0"
+simple-websocket = "^0.3.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
